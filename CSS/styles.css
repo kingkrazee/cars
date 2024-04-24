@@ -1,0 +1,56 @@
+ul{
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+ul li{
+    /*takes dots away*/
+    list-style: none;
+    
+}
+a{
+    /*removes underline(anchor tag)*/
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+h1{
+    text-align: center;
+}
+table, th, td{
+    text-align: center;
+    border-bottom: 2px solid black;
+    margin: auto;
+}
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 7ch;
+    object-fit: cover;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+li:hover{
+    background-color: white;
+    color: black;
+}
+.card{
+    transition: ease 1s;
+    cursor: pointer;
+}
+.card:hover{
+    transform: scale(1.3);
+}
+body{
+    background-image: url(https://images.pexels.com/photos/7188527/pexels-photo-7188527.jpeg);
+}
+table.no-underline{
+    border-bottom:none ;
+}
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
